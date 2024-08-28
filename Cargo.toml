@@ -1,0 +1,11 @@
+[package]
+name = "file_sharing_p2p"
+version = "0.1.0"
+authors = ["Meet.Rajput"]
+edition = "2021"
+
+[dependencies]
+reqwest = "*"
+tokio = { version = "1", features = ["full"] }
+bytes ="*"
+futures = "0.3.4"
